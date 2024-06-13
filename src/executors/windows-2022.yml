@@ -9,7 +9,7 @@ parameters:
       Available options can be found at https://game.ci/docs/docker/versions.
       The 2018 release doesn't support the "linux-il2cpp" target platform.
     type: enum
-    enum: [ "appletv", "base", "universal-windows-platform", "windows-il2cpp" ]
+    enum: [ "appletv", "base", "universal-windows-platform", "windows-il2cpp", "android" ]
   editor_version:
     description: |
       Pick the editor version for the GameCI image.
